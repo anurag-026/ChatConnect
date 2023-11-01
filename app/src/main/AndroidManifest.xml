@@ -13,6 +13,26 @@
         android:theme="@style/Theme.ChatConnect"
         tools:targetApi="31">
         <activity
+            android:name=".view.Widgets"
+            android:exported="false"
+            android:label="@string/title_activity_widgets"
+            android:theme="@style/Theme.ChatConnect" />
+        <activity
+            android:name=".view.AuthenticationOption"
+            android:exported="false"
+            android:label="@string/title_activity_authentication_option"
+            android:theme="@style/Theme.ChatConnect" />
+        <activity
+            android:name=".nav.Navigation"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.ChatConnect" />
+        <activity
+            android:name=".NavComposeApp"
+            android:exported="false"
+            android:label="@string/title_activity_nav_compose_app"
+            android:theme="@style/Theme.ChatConnect" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

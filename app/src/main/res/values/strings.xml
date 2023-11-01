@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">chatConnect</string>
+    <string name="title_activity_nav_compose_app">NavComposeApp</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_authentication_option">AuthenticationOption</string>
+    <string name="title_activity_widgets">Widgets</string>
 </resources>

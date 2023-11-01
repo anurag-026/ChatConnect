@@ -6,16 +6,16 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.google.firebase.auth.FirebaseAuth
-import com.project.pradyotprakash.flashchat.nav.Action
-import com.project.pradyotprakash.flashchat.nav.Destination.AuthenticationOption
-import com.project.pradyotprakash.flashchat.nav.Destination.Home
-import com.project.pradyotprakash.flashchat.nav.Destination.Login
-import com.project.pradyotprakash.flashchat.nav.Destination.Register
-import com.project.pradyotprakash.flashchat.ui.theme.FlashChatTheme
-import com.project.pradyotprakash.flashchat.view.AuthenticationView
-import com.project.pradyotprakash.flashchat.view.home.HomeView
-import com.project.pradyotprakash.flashchat.view.login.LoginView
-import com.project.pradyotprakash.flashchat.view.register.RegisterView
+import com.example.chatconnect.nav.Action
+import com.example.chatconnect.nav.Destination.AuthenticationOption
+import com.example.chatconnect.nav.Destination.Home
+import com.example.chatconnect.nav.Destination.Login
+import com.example.chatconnect.nav.Destination.Register
+import com.example.chatconnect.ui.theme.FlashChatTheme
+import com.example.chatconnect.view.AuthenticationView
+import com.example.chatconnect.view.home.HomeView
+import com.example.chatconnect.view.login.LoginView
+import com.example.chatconnect.view.register.RegisterView
 
 /**
  * The main Navigation composable which will handle all the navigation stack.

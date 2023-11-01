@@ -13,6 +13,11 @@
         android:theme="@style/Theme.ChatConnect"
         tools:targetApi="31">
         <activity
+            android:name=".view.home.Home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.ChatConnect" />
+        <activity
             android:name=".view.Widgets"
             android:exported="false"
             android:label="@string/title_activity_widgets"

@@ -14,10 +14,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.chatconnect.ui.theme.FlashChatTheme
 
-/**
- * The authentication view which will give the user an option to choose between
- * login and register.
- */
 
 @Composable
 fun AuthenticationView(register: () -> Unit, login: () -> Unit) {

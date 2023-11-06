@@ -17,10 +17,7 @@ import com.example.chatconnect.view.Appbar
 import com.example.chatconnect.view.Buttons
 import com.example.chatconnect.view.TextFormField
 
-/**
- * The Register view which will be helpful for the user to register themselves into
- * our database and go to the home screen to see and send messages.
- */
+
 
 @Composable
 fun RegisterView(

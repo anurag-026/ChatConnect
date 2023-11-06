@@ -25,13 +25,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.chatconnect.Constants
 import com.example.chatconnect.view.SingleMessage
 
-/**
- * The home view which will contain all the code related to the view for HOME.
- *
- * Here we will show the list of chat messages sent by user.
- * And also give an option to send a message and logout.
- */
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeView(

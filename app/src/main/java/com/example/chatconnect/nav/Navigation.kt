@@ -5,9 +5,7 @@ import com.example.chatconnect.nav.Destination.Home
 import com.example.chatconnect.nav.Destination.Login
 import com.example.chatconnect.nav.Destination.Register
 
-/**
- * A set of destination used in the whole application
- */
+
 object Destination {
     const val AuthenticationOption = "authenticationOption"
     const val Register = "register"
@@ -15,10 +13,7 @@ object Destination {
     const val Home = "home"
 }
 
-/**
- * Set of routes which will be passed to different composable so that
- * the routes which are required can be taken.
- */
+
 class Action(navController: NavHostController) {
     val home: () -> Unit = {
         navController.navigate(Home) {

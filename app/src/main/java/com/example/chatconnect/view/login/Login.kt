@@ -17,11 +17,6 @@ import com.example.chatconnect.view.Appbar
 import com.example.chatconnect.view.Buttons
 import com.example.chatconnect.view.TextFormField
 
-/**
- * The login view which will help the user to authenticate themselves and go to the
- * home screen to show and send messages to others.
- */
-
 @Composable
 fun LoginView(
     home: () -> Unit,

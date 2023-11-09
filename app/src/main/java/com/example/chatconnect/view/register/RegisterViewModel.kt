@@ -8,9 +8,6 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import java.lang.IllegalArgumentException
 
-/**
- * View model for the login view.
- */
 class RegisterViewModel : ViewModel() {
     private val auth: FirebaseAuth = Firebase.auth
 

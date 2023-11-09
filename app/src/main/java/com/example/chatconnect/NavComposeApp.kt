@@ -17,9 +17,6 @@ import com.example.chatconnect.view.home.HomeView
 import com.example.chatconnect.view.login.LoginView
 import com.example.chatconnect.view.register.RegisterView
 
-/**
- * The main Navigation composable which will handle all the navigation stack.
- */
 
 @Composable
 fun NavComposeApp() {
